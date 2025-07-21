@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# UesleiTech 🚀
 
-First, run the development server:
+**EN:**  
+Frontend project built with Next.js (App Router) to practice SSR and SEO techniques.  
+Styled with Tailwind CSS, focusing on code organization, best practices, and user experience.
+
+**PT-BR:**  
+Projeto frontend desenvolvido com Next.js (App Router) para praticar SSR e SEO.  
+Estilização feita com Tailwind CSS, focado em organização de código, boas práticas e experiência do usuário.
+
+---
+
+## 🛠 Technologies used / Tecnologias usadas
+
+- Next.js  
+- Tailwind CSS  
+- TypeScript  
+
+---
+
+## 🚀 Running the project / Como rodar o projeto
+
+### 1 - Clone the repository / Clone o repositório
+
+```bash
+git clone https://github.com/uesleisouza33/uesleitech.git
+cd uesleitech
+```
+
+### 2 - Install dependencies / Instale as dependências
+
+Using npm / Usando npm:
+
+```bash
+npm install
+```
+
+Using Yarn / Usando Yarn:
+
+```bash
+yarn
+```
+
+
+### 3 - Run the development server / Rode o servidor de desenvolvimento
+
+Using npm / Usando npm:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Using Yarn / Usando Yarn:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4 - Open the app / Abra o app
 
-## Learn More
+Open your browser and go to [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Contact / Contato
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Developed by [Ueslei Carvalho](https://github.com/uesleisouza33)  
+Email: ucarvalhof@gmail.com
+LinkedIn: [linkedin.com/in/ucarvalhodev](linkedin.com/in/ucarvalhodev)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License / Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.  
+Este projeto está licenciado sob a licença MIT.
