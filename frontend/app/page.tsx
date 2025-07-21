@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 async function getPosts() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts?_limit=10", {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts?_limit=6", {
     next: { revalidate: 60 },
   });
   return res.json();
@@ -27,9 +27,9 @@ export default async function Home() {
           <Card key={post.id} className="p-4">
             <h2 className="text-2xl font-medium mb-2">{post.title}</h2>
             <p className="text-sm text-gray-600 mb-4">{post.body.slice(0, 50)}...</p>
-            <Link href={`artigo/${post.id}`}>
-              <Button variant={"default"}>Leia mais</Button>
-            </Link>
+            <Button variant={"default"} className="w-20">
+              <Link href={`artigo/${post.id}`}>Leia mais</Link>
+              </Button>
           </Card>
         )}
       </div>
